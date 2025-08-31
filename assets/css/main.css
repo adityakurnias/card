@@ -9,9 +9,9 @@ body {
   background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
   min-height: 100vh;
   display: flex;
+  padding: 20px;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   overflow: hidden;
 }
 
@@ -31,6 +31,7 @@ body {
   position: relative;
   transition: all 0.3s ease;
   animation: glow 2s ease-in-out infinite alternate;
+  margin: auto auto;
 }
 
 @keyframes glow {
@@ -54,7 +55,7 @@ body {
 }
 
 .name {
-   font-size: 1.6rem;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 10px;
   color: #2f4f2f;
@@ -229,7 +230,8 @@ body {
 @media (max-width: 600px) {
   .card {
     padding: 20px;
-    margin: 10px;
+    flex-direction: column-reverse;
+    align-items: center;
   }
 
   .card-content {
@@ -245,13 +247,23 @@ body {
     font-size: 1rem;
   }
 
+  .character-section {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    padding: 0;
+  }
+
   .character-img {
-    width: 120px;
-    height: 160px;
+    width: 100%;
   }
 
   .social-icons {
     justify-content: center;
+  }
+
+  .website-btn {
+    max-width: 100%;
   }
 }
 
