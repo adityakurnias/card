@@ -230,12 +230,6 @@ body {
   filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.3));
 }
 
-@media (max-width: 1024px) {
-  .card {
-    overflow: hidden;
-  }
-}
-
 @media (max-width: 600px) {
   .card {
     padding: 20px;
