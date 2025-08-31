@@ -7,7 +7,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
-  /* min-height: 100vh; */
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -34,7 +33,7 @@ body {
   transition: all 0.3s ease;
   animation: glow 2s ease-in-out infinite alternate;
   margin: auto auto;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 @keyframes glow {
