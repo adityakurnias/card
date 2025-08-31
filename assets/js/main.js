@@ -1,8 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   const card = document.querySelector(".card");
-  const socialIcons = document.querySelectorAll(".social-icon");
-  const websiteBtn = document.querySelector(".website-btn");
-  const characterImg = document.querySelector(".character-img");
 
   card.addEventListener("mousemove", function (e) {
     const rect = card.getBoundingClientRect();
