@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 0 50px #86e586, 0 20px 40px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 50px #86e586, 0 20px 40px rgba(0, 0, 0, 0.3); */
   position: relative;
   transition: all 0.3s ease;
   animation: glow 2s ease-in-out infinite alternate;
@@ -36,19 +36,19 @@ body {
   overflow: hidden;
 }
 
-@keyframes glow {
+/* @keyframes glow {
   from {
     box-shadow: 0 0 50px #f5f5dc, 0 20px 40px rgba(0, 0, 0, 0.3);
   }
   to {
     box-shadow: 0 0 80px #a8d8a8, 0 25px 50px rgba(0, 0, 0, 0.4);
   }
-}
+} */
 
-.card:hover {
+/* .card:hover {
   transform: translateY(-5px) rotateX(5deg);
   box-shadow: 0 0 100px rgba(218, 165, 32, 0.7), 0 30px 60px rgba(0, 0, 0, 0.4);
-}
+} */
 
 .profile-section {
   flex: 1;
@@ -272,7 +272,7 @@ body {
   }
 }
 
-.card::after {
+/* .card::after {
   content: "";
   position: absolute;
   top: -50%;
@@ -288,13 +288,13 @@ body {
   animation: float 20s linear infinite;
   pointer-events: none;
   opacity: 0.3;
-}
+} */
 
-@keyframes float {
+/* @keyframes float {
   0% {
     transform: translate(0, 0) rotate(0deg);
   }
   100% {
     transform: translate(-50px, -50px) rotate(360deg);
   }
-}
+} */
